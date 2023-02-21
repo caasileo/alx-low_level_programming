@@ -10,4 +10,4 @@
 9. the c file 9-print_comb.c prints all possible combinations of single-digit numbers.
 10. the c file 100-print_comb3.c prints all possible different combinations of two digits.
 11. the c file 101-print_comb4.c prints all possible different combinations of three digits.
-12. the c file 
+12. the c file 102-print_comb5.c prints all possible combinations of two two-digit numbers.
