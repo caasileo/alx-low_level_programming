@@ -8,4 +8,5 @@
 7. the c file 7-print_tebahpla.c prints the lowercase alphabet in reverse, followed by a new line.
 8. the c file 8-print_base16.c prints all the numbers of base 16 in lowercase, followed by a new line.
 9. the c file 9-print_comb.c prints all possible combinations of single-digit numbers.
-10. the
+10. the c file 100-print_comb3.c prints all possible different combinations of two digits.
+11. 
