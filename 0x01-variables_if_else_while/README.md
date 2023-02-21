@@ -9,4 +9,5 @@
 8. the c file 8-print_base16.c prints all the numbers of base 16 in lowercase, followed by a new line.
 9. the c file 9-print_comb.c prints all possible combinations of single-digit numbers.
 10. the c file 100-print_comb3.c prints all possible different combinations of two digits.
-11. 
+11. the c file 101-print_comb4.c prints all possible different combinations of three digits.
+12. the c file 
