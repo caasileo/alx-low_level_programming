@@ -11,4 +11,5 @@
 10.the c file 10-add.c adds two integers and returns the result.
 11.the c file 11-print_to_98.c prints all natural numbers from n to 98, followed by a new line.
 12.the c file 100-times_table.c prints the n times table, starting with 0.
-13.the c file
+13.the c file 101-natural.c computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+14.the c file 
