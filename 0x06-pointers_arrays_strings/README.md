@@ -8,4 +8,5 @@
 7. the c function 7-leet.c: encodes a string into 1337.
 8. the c function 100-rot13.c: encodes a string using rot13.
 9. the c function 101-print_number.c: prints an interger
-10. the c function:
+10. the c function 102-magic.c  prints a[2] = 98, followed by a new line.
+11. the c function 
