@@ -7,4 +7,5 @@
 6. the c function 6-cap_string.c: capitalizes all words of a string.
 7. the c function 7-leet.c: encodes a string into 1337.
 8. the c function 100-rot13.c: encodes a string using rot13.
-9. the c function :
+9. the c function 101-print_number.c: prints an interger
+10. the c function:
