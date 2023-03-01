@@ -4,4 +4,5 @@
 3. the c function 3-strcmp.c: compares two strings.
 4. the c function 4-rev_array.c: reverses the content of an array of integers.
 5. the c function 5-string_toupper.c: changes all lowercase letters of a string to uppercase.
-6. the c function :
+6. the c function 6-cap_string.c: capitalizes all words of a string.
+7. the c function :
