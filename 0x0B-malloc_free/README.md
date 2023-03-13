@@ -3,4 +3,5 @@
 2. the function 2-str_concat.c concatenates two strings.
 3. the function 3-alloc_grid.c returns a pointer to a 2 dimensional array of integers.
 4. the function 4-free_grid.c frees a 2 dimensional grid previously created by your alloc_grid function.
-5. the function 
+5. the function 100-argstostr.c  concatenates all the arguments of your program.
+6. the funcetion 101-strtow.c splits a string into words.
