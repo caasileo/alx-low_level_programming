@@ -3,4 +3,4 @@
 2. the function 2-args.c prints all arguments it receives.
 3. the function 3-mul.c multiplies two numbers.
 4. the function 4-adds.c adds positive numbers.
-5. the function 
+5. the function 100-change.c prints the minimum number of coins to make change for an amount of money.
