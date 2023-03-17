@@ -2,27 +2,43 @@
 #include "main.h"
 
 /**
- * _calloc - Allocate memory for array of nmemb elements of size bytes
- * @nmemb: Number of elemnts
- * @size: Size in bytes of elements
+ * _memset - fill memory with a constant byte
+ * @s: a pointer to a memory area
+ * @b: the byte to write to memory
+ * @n: the number of bytes to write
  *
- * Return: Pointer to new memory, NULL if it fails
+ * Return: a pointer to the memory area s
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; ++i)
+		s[i] = b;
+	return (s);
+}
+
+
+/**
+ * _calloc - dynamically allocate memory for an array and initialize it to zero
+ * @nmemb: the number of array members
+ * @size: the size of each array member
+ *
+ * Return: If memory allocation fails or either argument is zero, return NULL.
+ * Otherwise, return a pointer to the newly allocated memory.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *ar;
-	unsigned int ar_size, i;
+	void *ptr;
 
-	if (nmemb == 0 || size == 0)
+	if (!(nmemb && size))
 		return (NULL);
-	ar_size = nmemb * size;
-	ar = malloc(ar_size);
-	if (ar == NULL)
+
+	ptr = malloc(nmemb * size);
+	if (!ptr)
 		return (NULL);
-	while (i < ar_size)
-	{
-		ar[i] = 0;
-		i++;
-	}
-	return (ar);
+
+	_memset(ptr, 0, nmemb * size);
+
+	return (ptr);
 }
